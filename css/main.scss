@@ -67,6 +67,8 @@ html, body {
   margin-top: 15%;
 }
 
+h1 { color: #FF2A68; font-size: 800%; }
+
 @media all and (max-width: 800px) {
     #text, #image
     {
@@ -82,7 +84,11 @@ html, body {
       height: 100%;
       margin-left: 0%;
       margin-top: 5%;
-      padding: 2px;
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: 700%
     }
 
 }
